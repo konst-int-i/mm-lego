@@ -1,0 +1,39 @@
+name: castle
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+  - pytorch
+  - nvidia
+dependencies:
+  - colorlog
+  - einops
+  - jupyter
+  - lightning=2.1.3
+  - python=3.9
+  - pytorch=1.13.1
+  - cudatoolkit
+  - pandas=1.5.3
+  - scikit-learn
+  - scikit-survival
+  - seaborn
+  - torchvision
+  - tqdm
+  - pytables
+  - python-box
+  - pytest
+  - pip
+  - pip:
+      - gdown
+      - h5py
+      - invoke
+      - tiatoolbox
+      - transformers
+      - torcheval
+      - torchsummary
+      - torch_optimizer
+      - wandb==0.15.8
+      - opencv-python
+      - openslide-python
+      - pre-commit
+      - POT
